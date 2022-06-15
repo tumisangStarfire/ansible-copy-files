@@ -1,6 +1,6 @@
 ---
 - name: Copy files from host to remote clients
-  hosts:
+  hosts: all
 
   tasks:
     - name: Copying files from remote to clients and assigning permissions
